@@ -37,34 +37,3 @@ while (limit < 2){
 limit++;
 } 
 
-/*
-function printBusStop() {
-    let currentStop = 1;
-    let isForward = true;
-    let routeCount = 0;
-  
-    while (routeCount < 2) {
-      console.log("Bus stop:", currentStop);
-  
-      if (currentStop === 5) {
-        isForward = false; // Reached the end, change direction
-      } else if (currentStop === 1) {
-        isForward = true; // Reached the start, change direction
-        routeCount++; // Increment the route count when it completes one round
-      }
-  
-      if (isForward) {
-        currentStop++;
-      } else {
-        currentStop--;
-      }
-    }
-  }
-  
-  printBusStop();
-  
-  */
-
-
-
-
